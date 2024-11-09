@@ -89,11 +89,12 @@ The result of the analysis may be used to identify the most and least valuable p
 
 # The `main` module.
 
-The `main` module is given as a convenience. It shows how to specify the initial parameters, such as the number of metrics, entities, categories, category weights and a range$^{1}$ for metric random values, as well as how to provide names for entities and metrics, which are used as the index and columns, respectively.
+The `main` module is given as a convenience. It shows how to specify the initial parameters, such as the number of metrics, entities, categories, category weights and a range $^{1}$ for metric random values, as well as how to provide names for entities and metrics, which are used as the index and columns, respectively.
 
 The module calls the `generate` function of the `absgen` module and passes the results into the `analyze` function of the `absan` module, before getting the results of the analysis.
 
 *Notes.*
+
 *1. The range for metric values essentially represents a linear transformation to make the values more realistic. This makes more sense in the context of the uniform distribution, which can be produced by uncommenting a specific line in the `generate` function, rather than the normal distribution.*
 
 
