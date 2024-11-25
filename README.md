@@ -38,7 +38,7 @@ The function `analyze` in the `absan` module performs abstract business analysis
 
 The function returns a DataFrame with the result of the analysis, indexed by entities and containing the following columns: 
 
-- {$M_i$}: M columns, where $i \in[1, M]$ and M is the number of metrics. $i^{th}$ column contains category designations for each entity, for $i^{th}$ metric.
+- { $M_i$ }: M columns, where $i \in[1, M]$ and M is the number of metrics. $i^{th}$ column contains category designations for each entity, for $i^{th}$ metric.
 - `score`: the overall scores, for each entity.
 - `group`: a concatenation of category names across all metrics, for each entity. 
 
